@@ -1,0 +1,222 @@
+@font-face {
+    font-family: 'Exo 2';
+    src: url(../fonts/Exo2-Regular.ttf);
+}
+
+* {
+    font-family: 'Exo 2';
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background-color: #323232;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+menu {
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    font-size: 36px;
+    color: white;
+    text-align: center;
+}
+
+li {
+    color: #ffca00;
+}
+
+input {
+    border-radius: 10px;
+    font-size: 22px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #ffca00;
+}
+
+input:focus {
+    border: 1px solid #19FFE6;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    height: 250px;
+    margin-top: 50px;
+}
+
+.icon {
+    width: 40px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo__img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.logo__text {
+    font-size: 36px;
+    color: white;
+}
+
+.main-menu__item {
+    font-size: 16px;
+    color: white;
+    list-style-type: none;
+    display: flex;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+
+.main-menu__item:last-child {
+    margin-right: 0;
+}
+
+.main-menu__item:hover {
+    color: #FFCA00;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+}
+
+.phone__number {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.phone__img {
+    height: 40px;
+}
+
+.work-time {
+    display: flex;
+    align-items: center;
+}
+
+.work-time__text {
+    color: white;
+}
+
+.mail {
+    display: flex;
+    align-items: center;
+}
+
+.banner {
+    background-image: url("../img/fixman.jpg");
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    height: 700px;
+}
+
+.banner__text {
+    color: black;
+    font-size: 36px;
+    text-align: right;
+}
+
+.banner__text_big {
+    font-size: 36px;
+}
+
+.banner__text_middle {
+    font-size: 24px;
+}
+
+.banner__text_small {
+    font-size: 18px;
+}
+
+.list__item {
+    margin-bottom: 20px;
+}
+
+.list__text {
+    font-size: 22px;
+    color: white;
+}
+
+.warranty__logo {
+    display: block;
+    margin: 0 auto;
+    height: 250px;
+}
+
+.callback__button {
+    background-color: #FFCA00;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+    border: none;
+    width: 200px;
+}
+
+.address {
+    display: flex;
+    align-items: center;
+}
+
+.address__text {
+    font-size: 16px;
+    color: white;
+}
+
+.successes__title {
+    color: white;
+    text-align: center;
+    font-size: 36px;
+}
+
+.successes__img {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: auto;
+    margin-top: 100px;
+}
+
+.successes__text {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+
+.form-title {
+    font-size: 24px;
+}
